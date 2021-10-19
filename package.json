@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Everforest theme for Hyper",
   "main": "index.js",
+  "homepage": "https://github.com/tani/hyper-everforest",
+  "bugs": "https://github.com/tani/hyper-everforest/issues",
+  "repository": "github:tani/hyper-everforest",
   "scripts": {
     "test": "deno lint index.js",
     "fmt": "deno fmt index.js"
