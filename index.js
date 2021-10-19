@@ -53,7 +53,7 @@ const palette = {
 };
 exports.decorateConfig = (config) => {
   const brightness = config.brightness || "dark";
-  const mood = config.mood || "medium";
+  const contrast = config.contrast || "medium";
   const lightPalette = Object.fromEntries(
     Object.entries(palette[brightness]).map(([key, value]) => [
       "light" + key.charAt(0).toUpperCase() + key.slice(1),
@@ -61,12 +61,12 @@ exports.decorateConfig = (config) => {
     ]),
   );
   return Object.assign({}, config, {
-    backgroundColor: backgroundColor[brightness][mood],
+    backgroundColor: backgroundColor[brightness][contrast],
     foregroundColor: foregroundColor[brightness],
-    borderColor: backgroundColor[brightness][mood],
+    borderColor: backgroundColor[brightness][contrast],
     cursorColor: foregroundColor[brightness],
-    cursorAccentColor: backgroundColor[brightness][mood],
-    selectionColor: selectionColor[brightness][mood],
+    cursorAccentColor: backgroundColor[brightness][contrast],
+    selectionColor: selectionColor[brightness][contrast],
     colors: {
       ...palette[brightness],
       ...lightPalette,

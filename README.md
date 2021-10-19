@@ -13,7 +13,7 @@ $ hyper i hyper-everforest
 
   - `config.brightness`: you can choose one of `dark` and `light`. The
     default value is `dark`.
-  - `config.mood`: you can choose one of `hard`, `medium`, and `soft`.
+  - `config.contrast`: you can choose one of `hard`, `medium`, and `soft`.
     The default value is `medium`.
 
 This software is licensed under the MIT License.
