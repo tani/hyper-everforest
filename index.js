@@ -1,6 +1,6 @@
 // Original theme: https://github.com/sainnhe/everforest by Sainnhe Park
-// This work is licensed under the MIT License.
 // Copyright 2021 TANIGUCHI Masaya. All rights reserved.
+// This work is licensed under the MIT License. https://git.io/mit-license
 const foregroundColor = {
   dark: "#d3cacc",
   light: "#5c6a72",
