@@ -55,7 +55,7 @@ exports.decorateConfig = (config) => {
   const brightness = config.brightness || "dark";
   const mood = config.mood || "medium";
   const lightPalette = Object.fromEntries(
-    Object.entries(palette[mood]).map(([key, value]) => [
+    Object.entries(palette[brightness]).map(([key, value]) => [
       "light" + key.charAt(0).toUpperCase() + key.slice(1),
       value,
     ]),
